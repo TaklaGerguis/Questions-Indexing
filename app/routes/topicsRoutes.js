@@ -1,12 +1,9 @@
 module.exports = app => {
     const topics = require("../controllers/topicController.js");
 
-    var router = require("express").Router();
+    const router = require("express").Router();
 
+    router.get("/search/", topics.getQuestionsByTopicName);
 
-
-    router.get("/", topics.findAll);
-    router.get("/:name", topics.findOne);
-
-    app.use("/api/topics", router);
+    app.use("/pencil/topics", router);
 };

@@ -12,11 +12,16 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
     "hashset": "0.0.6",
     "mongoose": "^5.11.2",
-    "mongoose-tree": "^0.2.2"
+    "mongoose-tree": "^0.2.2",
+    "node-csv": "^0.1.2",
+    "simple-hashtable": "^1.0.0"
   },
   "devDependencies": {
+    "csv-parse": "^4.14.1",
+    "csv-parser": "^3.0.0",
     "mongodb": "^3.6.3"
   }
 }
